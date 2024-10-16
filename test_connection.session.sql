@@ -1,3 +1,5 @@
 -- create_tables.sql
-select * from usernames;
-select * from passwords;
+
+
+select * from leaders;
+

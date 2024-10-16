@@ -84,7 +84,7 @@ class Database:
         cursor = self.connection.cursor()
         try:
             query = """
-                SELECT first_name, last_name, session_days, session_times, room_location, observed_count, department
+                SELECT first_name, last_name, class, session_days, session_times, room_location, observed_count, department
                 FROM leaders
             """
             cursor.execute(query)
